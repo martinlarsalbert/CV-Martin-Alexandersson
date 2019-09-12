@@ -1,0 +1,201 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cies Resume/CV
+% LaTeX Template
+% Version 1.1 (20/7/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Cies Breijs (cies@kde.nl)
+% https://github.com/cies/resume with extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt,a4paper]{article} % Font size (10-12pt) and paper size (a4paper, letterpaper, legalpaper, etc)
+
+\include{structure} % Include structure.tex which contains packages and document layout definitions
+\usepackage[ngerman]{babel}
+\usepackage{multicol}
+
+\hyphenation{Some-long-word} % Specify custom hyphenation points in words with dashes where you would like hyphenation to occur, or alternatively, don't put any dashes in a word to stop hyphenation altogether
+
+\begin{document} 
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\maintitle{Martin Alexandersson}{1983}  % Your name and date of birth or subtitle
+
+\noindent\href{mailto:marale@kth.se}{marale@kth.se}\bull % Your email address
+\textsmaller{+}46 0730-729032 % Your phone number(s) and Skype username
+\\ % Your URL
+Vantgatan 3H\bull 414 56\bull G"oteborg\bull Sweden % Your address
+
+\spacedhrule{0.9em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+%----------------------------------------------------------------------------------------
+%	SUMMARY SECTION
+%----------------------------------------------------------------------------------------
+
+\roottitle{Summary} % Root section title
+
+\vspace{-1.3em} % Reduce whitespace after the Summary heading and the two-column content
+
+\setlength\columnsep{30pt}
+\begin{multicols}{2}  % Start a two-column layout
+
+\noindent''Using data science to take naval architecture to the future''.
+
+When I first went to university I decided to study Computer Science. After two years I read a course about mechanics. This course made me want to change major to something with more mechanics. Naval Architecture offered a nice combination. 
+
+Based on my education and professional career I would label myself as: Naval architect specialized in ship hydrodynamics and data science.     
+
+\end{multicols}
+
+\spacedhrule{0.5em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\roottitle{Experience} % Top level section
+
+\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
+{\href{http://www.sspa.se/}{SSPA Sweden AB}}
+{\textsc{G"oteborg, Sweden}} {
+
+\headedsubsection % Job title entry for the current employer
+{Data Analyst / Developer}
+{Aug 2017 -- Present}
+{\bodytext{
+Data Analyst and Developer in Maritime research projects.
+}}
+
+\headedsubsection % Job title entry for the current employer
+{Project manager / Specialist}
+{Nov 2011 -- Aug 2017}
+{\bodytext{
+In SSPA's facilities; towing tank, wave basin and cavitation tunnel, various experiments for ship hydrodynamics can be conducted with scale models of future ships. I'm specialized in collecting, filtering and analyzing the data from the experiments. I develop and implement methods in Matlab/Python to analyze our data and present it as tables and plots in reports for our customers. I also fit mathematical models to measured hydrodynamic forces. These mathematical models can be used to run time simulations of ships manoeuvring performance.     
+}}
+
+\headedsubsection % Job title entry for the current employer
+{Board Member}
+{May 2016 -- Present}
+{\bodytext{
+Employees board member
+}}
+
+
+}
+
+%------------------------------------------------
+
+\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
+{\href{https://www.rolls-royce.com}{Rolls-Royce Marine}}
+{\textsc{Ulsteinvik, Norway}} {
+
+\headedsubsection % Job title entry for the current employer
+{Project Engineer Hydrodynamics}
+{Sep 2009 -- Nov 2011}
+{\bodytext{
+I worked as Project Engineer - Hydrodynamics for Rolls-Royce Propulsion. My job was to ensure that we
+offer our clients the best possible propulsion solution, with respect to hydrodynamic performance. I also followed up on the signed contracts, with the actual propeller design. I learned much about propeller hydrodynamics during my two years at RRM. I have also improved my ability to make engineering decisions, decisions that will have a great impact on the final performance of the ships I work with. I received
+a lot of good feedback on my work and finished top 3 in Rolls-Royce Global Learning and Development Awards in Europe.
+}}
+}
+
+\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
+{\href{http://www.stormgeo.com/}{Seaware AB}}
+{\textsc{Stockholm, Sweden}} {
+
+\headedsubsection % Job title entry for the current employer
+{Master Thesis}
+{2008 -- 2009}
+{\bodytext{
+\href{https://www.kth.se/polopoly_fs/1.151543!/Menu/general/column-content/attachment/Alexandersson.pdf}{A STUDY OF METHODS TO PREDICT ADDED RESISTANCE IN WAVES}
+}}
+}
+
+\begin{center}
+\textit{Please refer to \href{http://www.linkedin.com/in/ciesbreijs}{my Linkedin profile} for the complete list of work experiences along with recommendations.}
+\end{center}
+
+%------------------------------------------------
+
+\spacedhrule{-0.2em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\roottitle{Education} % Top level section
+
+\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
+{KTH, Royal Institute of Technology}
+{\textsc{Stockholm, Sweden}} {
+
+\headedsubsection % Job title entry for the current employer
+{Master of Science (M.Sc.), Naval Architecture and Marine Engineering}
+{2004 -- 2009}
+{\bodytext{ }}
+}
+
+%------------------------------------------------
+
+\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
+{LIU, Link"oping University}
+{\textsc{Link"oping, Sweden}} {
+
+\headedsubsection % Job title entry for the current employer
+{Computer Science \textnormal{(discontinued)}}
+{2002 -- 2004} {}
+}
+
+%------------------------------------------------
+
+\spacedhrule{0.5em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+%----------------------------------------------------------------------------------------
+%	SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\roottitle{Skills} % Top level section
+
+\inlineheadsection % Special section that has an inline header with a 'hanging' paragraph
+{Engineering:}
+{Rigid body dynamics, Fluid dynamics, Regression analysis, Time simulations.}
+
+\inlineheadsection % Special section that has an inline header with a 'hanging' paragraph
+{Programming:}
+{I love Python (NumPy, SciPy, Pandas) and use Matlab on a daily basis. I have used Pandas for about 2 years and would love to learn R. I have basic knowledge about C++ and Fortran. I use regular expressions quite frequently and have some experience with XML, SQL and HDF5}
+
+%------------------------------------------------
+
+\inlineheadsection % Special section that has an inline header with a 'hanging' paragraph
+{Natural languages:}
+{Swedish \textit{(mother tongue)}, English \textit{(full professional proficiency)}, German \textit{(limited working proficiency)}}
+
+%------------------------------------------------
+
+\spacedhrule{1.6em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\roottitle{Interests} % Top level section
+Play guitar, listen to music, running, exercising, sailing, skiing and vegetarian cooking.
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
